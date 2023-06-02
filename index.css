@@ -1,5 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
 *,
 *::before,
 *::after {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+}
+
+#container-one {
+    background-repeat: no-repeat;
+    background-image: url("./img/market.svg");
+    background-size: cover;
+}
+
+#container-one div {
+    max-width: 400px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    padding: 40px;
+    height: 60vh;
+    color: #fff;
+}
+
+#container-one h1 {
+    font-size: 2.5rem;
+    line-height: 1.2;
+    font-family: 'Bebas Neue', sans-serif;
+    font-weight: lighter;
+}
+
+#container-one p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+#container-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+#container-two div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 10px;
+}
+
+#container-two form {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+#container-two form input {
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    font-size: 16px;
+}
+
+input[type="submit"] {
+    background: #5200FF;
+    color: #fff;
+}
+
+@media (min-width:700px) {
+    #container-one h1 {
+        font-size: 3.3rem;
+        font-weight: lighter;
+    }
+
+    #container-one div {
+        max-width: 500px;
+    }
+}
+
+@media (min-width:1260px) {
+    #container {
+        flex-direction: row;
+    }
+
+    #container-one {
+        width: 50%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #container-two {
+        width: 50%;
+        height: 100vh;
+    }
+
+    #container-two form {
+        width: 70%;
+        height: 45%;
+        display: flex;
+    }
+
+    #container-two form input {
+        height: 55px;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    #container-two form label {
+        font-size: 18px;
+    }
+
+    input[type="submit"] {
+        width: 40%;
+    }
+
 }
