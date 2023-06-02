@@ -54,6 +54,8 @@
 }
 
 #container-two div {
+    margin: auto;
+    width: 80%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -61,6 +63,7 @@
 }
 
 #container-two form {
+    width: 100%;
     height: 80%;
     display: flex;
     flex-direction: column;
@@ -86,8 +89,12 @@ input[type="submit"] {
         font-weight: lighter;
     }
 
-    #container-one div {
-        max-width: 500px;
+    #container-one form {
+        flex-direction: row;
+    }
+
+    #container-two div {
+        width: 40vw;
     }
 }
 
