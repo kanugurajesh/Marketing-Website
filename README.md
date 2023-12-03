@@ -13,3 +13,6 @@ This repository contains the source code for a marketing website user interface.
 - Responsive design for various screen sizes.
 - Modern and visually appealing user interface.
 - Easy navigation for users to explore products or services.
+
+## Screenshots
+![Screenshot 2023-12-03 141356](https://github.com/kanugurajesh/Marketing-Website/assets/120458029/2f325c5e-43c4-4a9f-92d5-c453a953bf2f)
